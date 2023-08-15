@@ -1,17 +1,25 @@
 @font-face {
-  font-family: "Cabin";
+  font-family: "Museo";
   font-weight: 400;
-  src: url(./fonts/Cabin-Regular.ttf) format("ttf");
+  src: url(./fonts/MuseoModerno-Regular.ttf) format("ttf");
 }
 
 @font-face {
-  font-family: "Cabin";
+  font-family: "Museo";
   font-weight: 500;
-  src: url(./fonts/Cabin-Medium.ttf) format("ttf");
+  src: url(./fonts/MuseoModerno-Medium.ttf) format("ttf");
 }
 
 @font-face {
-  font-family: "Cabin";
+  font-family: "Museo";
   font-weight: 700;
-  src: url(./fonts/Cabin-Bold.ttf) format("ttf");
+  src: url(./fonts/MuseoModerno-Bold.ttf) format("ttf");
 }
+
+@font-face {
+  font-family: "Museo";
+  font-weight: 900;
+  src: url(./fonts/MuseoModerno-Black.ttf) format("ttf");
+}
+
+
