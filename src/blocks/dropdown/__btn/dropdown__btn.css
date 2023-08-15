@@ -1,0 +1,6 @@
+.dropdown__btn{
+    all: unset;
+    display: flex;
+    gap: 5px;
+  }
+  

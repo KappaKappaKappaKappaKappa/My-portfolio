@@ -1,0 +1,10 @@
+.body {
+    color: #202020;
+    font-family: "Cabin", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 30px;
+  }
