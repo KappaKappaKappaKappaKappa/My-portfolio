@@ -1,5 +1,6 @@
 .welcome {
   display: flex;
   padding: 0 16px;
-  height: 80vh;
+  height: 84vh;
+  margin-bottom: 64px;
 }

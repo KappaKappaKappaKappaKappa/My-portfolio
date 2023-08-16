@@ -6,7 +6,7 @@ function Header() {
         <div className="header__container">
           <div className="toggle">
             <input type="checkbox" id="toggle_checkbox" />
-            <label for="toggle_checkbox">
+            <label htmlFor="toggle_checkbox">
               <div id="star">
                 <div className="star" id="star-1">
                   ★
@@ -20,9 +20,9 @@ function Header() {
           </div>
           <div className="dropdown">
             <button className="dropdown__btn">
-              <img src={russian} alt="" className="dropdown__img" />
+              <img src={russian} alt="#" className="dropdown__img" />
               <p className="dropdown__text">RU</p>
-              <img src={dropdownArrow} alt="" className="dropdown__arrow" />
+              <img src={dropdownArrow} alt="#" className="dropdown__arrow" />
             </button>
           </div>
         </div>
