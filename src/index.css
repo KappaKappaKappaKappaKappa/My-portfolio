@@ -28,3 +28,18 @@
 @import url("./blocks/about-me/__text/about-me__text.css");
 @import url("./blocks/about-me/__title/about-me__title.css");
 @import url("./blocks/about-me/about-me.css");
+
+/* PRACTICE */
+@import url("./blocks/practice/__title/practice__title.css");
+@import url("./blocks/practice/practice.css");
+@import url("./blocks/place/__container/place__container.css");
+@import url("./blocks/place/__img/place__img.css");
+@import url("./blocks/place/__info/place__info.css");
+@import url("./blocks/place/__list-item/place__list-item.css");
+@import url("./blocks/place/__list-title/place__list-title.css");
+@import url("./blocks/place/__list/place__list.css");
+@import url("./blocks/place/__location/place__location.css");
+@import url("./blocks/place/__time/place__time.css");
+@import url("./blocks/place/__time/place__time.css");
+@import url("./blocks/place/__title/place__title.css");
+@import url("./blocks/place/place.css");

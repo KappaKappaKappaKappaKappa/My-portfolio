@@ -1,0 +1,14 @@
+.place__list-title {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid blue;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+  }
+  
+  .place__list-title + .place__list {
+    margin: 0;
+    margin-bottom: 24px;
+  }
