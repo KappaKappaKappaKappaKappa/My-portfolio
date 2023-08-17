@@ -1,0 +1,11 @@
+.stack__list-item{
+    list-style: none;
+    text-align: center;
+}
+
+.stack__list-item span {
+    display: block;
+    margin-top: 8px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
