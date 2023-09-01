@@ -1,0 +1,12 @@
+.projects__tab_active svg text {
+    fill: #fff;
+}
+
+.projects__tab_active svg {
+    fill: #fff;
+}
+
+.projects__tab_active {
+    color           : #fff;
+    background-color: #6c63ff;
+}

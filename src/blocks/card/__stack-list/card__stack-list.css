@@ -1,0 +1,15 @@
+.card__stack-list {
+    margin        : 16px 0;
+    padding       : 0;
+    display       : flex;
+    flex-direction: column;
+    gap           : 8px;
+}
+
+.card__stack-list li {
+    list-style: square inside;
+}
+
+.card__stack-list li::marker {
+    color: #6c63ff;
+}

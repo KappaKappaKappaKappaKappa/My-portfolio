@@ -42,6 +42,11 @@ function Stack() {
           <img className="stack__img" src={jsx} alt="" />
           <span>JSX</span>
         </li>
+
+        <li className="stack__list-item">
+          <img className="stack__img" src={jsx} alt="" />
+          <span>Express</span>
+        </li>
       </ul>
       <h3 className="stack__subtitle">Инструменты и прочее:</h3>
       <ul className="stack__list">
@@ -57,6 +62,11 @@ function Stack() {
         <li className="stack__list-item">
           <img className="stack__img" src={git} alt="" />
           <span>Git</span>
+        </li>
+
+        <li className="stack__list-item">
+          <img className="stack__img" src={git} alt="" />
+          <span>MongoDB</span>
         </li>
       </ul>
     </section>

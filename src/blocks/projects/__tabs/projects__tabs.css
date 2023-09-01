@@ -1,0 +1,6 @@
+.projects__tabs {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+    gap: 16px;
+  }

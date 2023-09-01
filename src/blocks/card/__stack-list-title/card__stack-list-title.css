@@ -1,0 +1,13 @@
+.card__stack-list-title {
+    margin   : 0;
+    font-size: 1.25rem;
+}
+
+.card__stack-list-title::before {
+    content         : "";
+    display         : block;
+    height          : 2px;
+    width           : 100%;
+    background-color: #6c63ff;
+    margin          : 16px 0;
+}
