@@ -1,4 +1,5 @@
-import Cards from "./Cards";
+import CardsLayout from "./CardsLayout";
+import CardsReact from "./CardsReact";
 
 function Projects() {
   return (
@@ -33,7 +34,8 @@ function Projects() {
           </button>
         </div>
         <div className="projects__cards">
-          <Cards />
+          <CardsReact />
+          {/* <CardsLayout /> */}
         </div>
       </div>
     </section>
