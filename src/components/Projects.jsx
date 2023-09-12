@@ -13,7 +13,7 @@ function Projects({
         <h2 className="projects__title">Мои проекты</h2>
         <div className="projects__tabs">
           <button
-          onClick={onClickLayoutTab}
+            onClick={onClickLayoutTab}
             className={`${
               isLayoutTabActive
                 ? "projects__tab projects__tab_active"
@@ -53,7 +53,8 @@ function Projects({
           </button>
         </div>
         <div className="projects__cards">
-        {isReactTabActive ? <CardsReact /> : <CardsLayout />}
+          {(isReactTabActive && <CardsReact />) ||
+            (isLayoutTabActive && <CardsLayout />)}
         </div>
       </div>
     </section>
