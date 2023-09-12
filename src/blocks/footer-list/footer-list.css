@@ -1,0 +1,8 @@
+.footer-list {
+    all: unset;
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
