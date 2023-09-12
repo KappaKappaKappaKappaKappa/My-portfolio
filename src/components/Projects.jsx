@@ -1,13 +1,25 @@
 import CardsLayout from "./CardsLayout";
 import CardsReact from "./CardsReact";
 
-function Projects() {
+function Projects({
+  isReactTabActive,
+  isLayoutTabActive,
+  onClickReactTab,
+  onClickLayoutTab,
+}) {
   return (
     <section className="projects">
       <div className="projects__container">
         <h2 className="projects__title">Мои проекты</h2>
         <div className="projects__tabs">
-          <button className="projects__tab projects__tab_active">
+          <button
+          onClick={onClickLayoutTab}
+            className={`${
+              isLayoutTabActive
+                ? "projects__tab projects__tab_active"
+                : "projects__tab"
+            }`}
+          >
             <span className="projects__tab-title">Вёрстка</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +32,14 @@ function Projects() {
               </text>
             </svg>
           </button>
-          <button className="projects__tab">
+          <button
+            onClick={onClickReactTab}
+            className={`${
+              isReactTabActive
+                ? "projects__tab projects__tab_active"
+                : "projects__tab"
+            }`}
+          >
             <span className="projects__tab-title">React / JS</span>
             <svg
               width="24"
@@ -34,8 +53,7 @@ function Projects() {
           </button>
         </div>
         <div className="projects__cards">
-          <CardsReact />
-          {/* <CardsLayout /> */}
+        {isReactTabActive ? <CardsReact /> : <CardsLayout />}
         </div>
       </div>
     </section>
