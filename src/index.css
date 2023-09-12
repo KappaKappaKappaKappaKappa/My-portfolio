@@ -1,7 +1,6 @@
 /* VENDOR */
 @import url("./vendor/normalize.css");
 @import url("./vendor/fonts.css");
-@import url("./blocks/body/body.css");
 
 /* HEADER */
 @import url("./blocks/dropdown/__arrow/dropdown__arrow.css");
@@ -87,3 +86,7 @@
 
 /* SCROLLBAR */
 @import url("./blocks/scrollbar/scrollbar.css");
+
+/* DARK THEME */
+@import url('./blocks/root/root.css');
+@import url('./blocks/root/_theme/root_theme_dark.css');
