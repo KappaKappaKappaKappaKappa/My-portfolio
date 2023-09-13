@@ -48,6 +48,8 @@ function Practice() {
             <li className="place__list-item">• JS</li>
             <li className="place__list-item">• React</li>
             <li className="place__list-item">• JSX</li>
+            <li className="place__list-item">• Node.js</li>
+            <li className="place__list-item">• Express.js</li>
           </ul>
           <h4 className="place__list-title">Инструменты:</h4>
           <ul className="place__list">
@@ -56,6 +58,7 @@ function Practice() {
             <li className="place__list-item">• Figma</li>
             <li className="place__list-item">• Parcel</li>
             <li className="place__list-item">• Методология БЭМ</li>
+            <li className="place__list-item">• MongoDB</li>
           </ul>
         </div>
       </div>
