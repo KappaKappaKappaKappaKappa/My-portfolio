@@ -13,7 +13,6 @@
 }
 
 .projects__tab:hover {
-  opacity: 0.6;
   cursor: pointer;
   background-color: #6c63ff;
   color: white;

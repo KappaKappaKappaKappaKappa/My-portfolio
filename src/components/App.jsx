@@ -14,7 +14,7 @@ function App() {
   const [isThemeDark, setIsThemeDark] = useState(false);
 
   const hadleSwitchTheme = () => {
-    setIsThemeDark(true);
+    setIsThemeDark(!isThemeDark);
   };
 
   const handleClickLayoutTab = () => {
@@ -37,10 +37,10 @@ function App() {
 
   return (
     <>
-      <Header onSwitchTheme={hadleSwitchTheme} />
+      <Header onSwitchDarkTheme={hadleSwitchTheme} isThemeDark={isThemeDark} />
       <main className="main">
         <Welcome />
-        <AboutMe />
+        <AboutMe isThemeDark={isThemeDark} />
         <Practice />
         <Stack />
         <Projects
@@ -48,6 +48,7 @@ function App() {
           isLayoutTabActive={isLayoutTabActive}
           onClickReactTab={handleClickReactTab}
           onClickLayoutTab={handleClickLayoutTab}
+          isThemeDark={isThemeDark}
         />
       </main>
       <Footer />

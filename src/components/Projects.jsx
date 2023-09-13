@@ -6,6 +6,7 @@ function Projects({
   isLayoutTabActive,
   onClickReactTab,
   onClickLayoutTab,
+  isThemeDark,
 }) {
   return (
     <section className="projects">
@@ -14,10 +15,10 @@ function Projects({
         <div className="projects__tabs">
           <button
             onClick={onClickLayoutTab}
-            className={`${
-              isLayoutTabActive
-                ? "projects__tab projects__tab_active"
-                : "projects__tab"
+            className={`projects__tab ${
+              isLayoutTabActive ? "projects__tab_active" : ""
+            } ${
+              isLayoutTabActive ? "" : isThemeDark ? "projects__tab_white" : ""
             }`}
           >
             <span className="projects__tab-title">Вёрстка</span>
@@ -34,10 +35,10 @@ function Projects({
           </button>
           <button
             onClick={onClickReactTab}
-            className={`${
-              isReactTabActive
-                ? "projects__tab projects__tab_active"
-                : "projects__tab"
+            className={`projects__tab ${
+              isReactTabActive ? "projects__tab_active" : ""
+            } ${
+              isReactTabActive ? "" : isThemeDark ? "projects__tab_white" : ""
             }`}
           >
             <span className="projects__tab-title">React / JS</span>

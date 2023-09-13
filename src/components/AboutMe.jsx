@@ -1,4 +1,4 @@
-function AboutMe() {
+function AboutMe({ isThemeDark }) {
   return (
     <section className="about-me">
       <div className="about-me__container">
@@ -14,7 +14,16 @@ function AboutMe() {
           </p>
           <p className="about-me__text">
             📚 Обучаюсь на платформе{" "}
-            <a className="about-me__link" href="https://practicum.yandex.ru/">
+            <a
+              className={`${
+                isThemeDark
+                  ? "about-me__link about-me__link_white"
+                  : "about-me__link"
+              }`}
+              href="https://practicum.yandex.ru/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Яндекс Практикум (Web-разработка)
             </a>
             , параллельно изучаю интересные технологии и делаю pet-проекты, в
