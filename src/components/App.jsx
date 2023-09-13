@@ -39,7 +39,7 @@ function App() {
     <>
       <Header onSwitchDarkTheme={hadleSwitchTheme} isThemeDark={isThemeDark} />
       <main className="main">
-        <Welcome />
+        <Welcome isThemeDark={isThemeDark} />
         <AboutMe isThemeDark={isThemeDark} />
         <Practice />
         <Stack />

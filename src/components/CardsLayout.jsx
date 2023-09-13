@@ -14,7 +14,7 @@ function CardsLayout() {
           />
         </figure>
         <div className="card__info-container">
-          <h3 className="card__title">Проект "Путешествия по России"</h3>
+          <h3 className="card__title">Проект Путешествия по России</h3>
           <p className="card__description">
             Проект о путешествии по России. Одностраничный сайт с адаптивным
             дизайном свёрстанный по макету.
@@ -46,7 +46,7 @@ function CardsLayout() {
           />
         </figure>
         <div className="card__info-container">
-          <h3 className="card__title">Проект "Научиться учиться"</h3>
+          <h3 className="card__title">Проект Научиться учиться</h3>
           <p className="card__description">
             Простой одностаничный сайт написанный на HTML и CSS с использованием
             CSS-анимаций.

@@ -13,7 +13,7 @@ function CardsReact() {
         />
       </figure>
       <div className="card__info-container">
-        <h3 className="card__title">Проект место</h3>
+        <h3 className="card__title">Проект Место</h3>
         <p className="card__description">
           Веб-страница-хранилище карточек пользователей с возможность
           регистрироваться, авторизовываться, добавлять и удалять карточки,
