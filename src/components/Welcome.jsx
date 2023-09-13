@@ -10,7 +10,7 @@ function Welcome({ isThemeDark }) {
       <figure className="welcome__img-container">
         <img
           className="welcome__img"
-          src={(isThemeDark && developerNigth) || developer}
+          src={isThemeDark ? developerNigth : developer}
           alt="Гифка с разработчиком"
         />
       </figure>
