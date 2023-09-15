@@ -1,0 +1,9 @@
+.dorpdown__list {
+  all: unset;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dorpdown__list li {
+  all: unset;
+}

@@ -2,4 +2,5 @@
     width: 16px;
     height: 16px;
     align-self: center;
+    transition: transform 0.3s ease;
   }

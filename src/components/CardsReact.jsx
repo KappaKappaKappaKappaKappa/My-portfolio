@@ -2,7 +2,7 @@ import mestoImg from "../images/mesto.png";
 import cardLinkViewImg from "../images/card-link.svg";
 import cardLinkCodeImd from "../images/linkCodeImg.svg";
 
-function CardsReact() {
+function CardsReact({ isEnlishVersion }) {
   return (
     <article className="card">
       <figure className="card__img-container">
@@ -13,17 +13,21 @@ function CardsReact() {
         />
       </figure>
       <div className="card__info-container">
-        <h3 className="card__title">Проект Место</h3>
+        <h3 className="card__title">
+          {isEnlishVersion ? "Project Place" : "Проект Место"}
+        </h3>
         <p className="card__description">
-          Веб-страница-хранилище карточек пользователей с возможность
-          регистрироваться, авторизовываться, добавлять и удалять карточки,
-          ставить лайки, менять данные профиля и аватар.
+          {isEnlishVersion
+            ? "Web page for storing user cards with the ability register, log in, add and delete cards, like, change profile data and avatar."
+            : "Веб-страница-хранилище карточек пользователей с возможность регистрироваться, авторизовываться, добавлять и удалять карточки, ставить лайки, менять данные профиля и аватар."}
         </p>
-        <h4 className="card__stack-list-title">Стек:</h4>
+        <h4 className="card__stack-list-title">
+          {isEnlishVersion ? "Stack:" : "Стек:"}
+        </h4>
         <ul className="card__stack-list">
-          <li>Java Scrips</li>
-          <li>CSS3</li>
           <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Java Scrips</li>
           <li>React</li>
         </ul>
         <div className="card__links">
@@ -36,9 +40,11 @@ function CardsReact() {
             <img
               className="card__link-img"
               src={cardLinkViewImg}
-              alt="Иконка Github"
+              alt={isEnlishVersion ? "Icon link" : "Иконка ссылки"}
             />
-            <span className="card__link-title">Посмотреть вживую</span>
+            <span className="card__link-title">
+              {isEnlishVersion ? "Watch live" : "Посмотреть вживую"}
+            </span>
           </a>
 
           <a
@@ -50,9 +56,11 @@ function CardsReact() {
             <img
               className="card__link-img"
               src={cardLinkCodeImd}
-              alt="Иконка GitHub"
+              alt={isEnlishVersion ? "Icon GitHub" : "Иконка GitHub"}
             />
-            <span className="card__link-title">Посмотреть код</span>
+            <span className="card__link-title">
+              {isEnlishVersion ? "Watch code" : "Посмотреть код"}
+            </span>
           </a>
         </div>
       </div>

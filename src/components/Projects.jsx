@@ -7,11 +7,14 @@ function Projects({
   onClickReactTab,
   onClickLayoutTab,
   isThemeDark,
+  isEnlishVersion,
 }) {
   return (
     <section className="projects">
       <div className="projects__container">
-        <h2 className="projects__title">Мои проекты</h2>
+        <h2 className="projects__title">
+          {isEnlishVersion ? "My projects" : "Мои проекты"}
+        </h2>
         <div className="projects__tabs">
           <button
             onClick={onClickLayoutTab}
@@ -21,7 +24,9 @@ function Projects({
               isLayoutTabActive ? "" : isThemeDark ? "projects__tab_white" : ""
             }`}
           >
-            <span className="projects__tab-title">Вёрстка</span>
+            <span className="projects__tab-title">
+              {isEnlishVersion ? "Layout" : "Вёрстка"}
+            </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -54,8 +59,10 @@ function Projects({
           </button>
         </div>
         <div className="projects__cards">
-          {(isReactTabActive && <CardsReact />) ||
-            (isLayoutTabActive && <CardsLayout />)}
+          {(isReactTabActive && <CardsReact isEnlishVersion={isEnlishVersion} />) ||
+            (isLayoutTabActive && (
+              <CardsLayout isEnlishVersion={isEnlishVersion} />
+            ))}
         </div>
       </div>
     </section>

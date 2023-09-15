@@ -1,19 +1,25 @@
-function AboutMe({ isThemeDark }) {
+function AboutMe({ isThemeDark, isEnlishVersion }) {
   return (
     <section className="about-me">
       <div className="about-me__container">
-        <h2 className="about-me__title">Обо мне</h2>
+        <h2 className="about-me__title">
+          {isEnlishVersion ? "About me" : "Обо мне"}
+        </h2>
         <div className="about-me__text-container">
           <p className="about-me__text">
-            🙋‍♂️💻 Мне 21 год и я начинающий Frontend-разработчик из Москвы, ищу
-            интересные задачи и заинтересован в развитии
+            {isEnlishVersion
+              ? "🙋‍♂️💻 I’m 21 years old and I’m a beginner Frontend developer from Moscow, looking for interesting tasks and interested in development"
+              : "🙋‍♂️💻 Мне 21 год и я начинающий Frontend-разработчик из Москвы, ищу интересные задачи и заинтересован в развитии"}
           </p>
           <p className="about-me__text">
-            🖥️ Пришел в разработку потому мне интересно узнавать и создавать
-            что-то новое, улучшая пользовательский опыт
+            {isEnlishVersion
+              ? "🖥️ I came to development because I’m interested in learning and creating something new, improving the user experience"
+              : "🖥️ Пришел в разработку потому мне интересно узнавать и создавать что-то новое, улучшая пользовательский опыт"}
           </p>
           <p className="about-me__text">
-            📚 Обучаюсь на платформе{" "}
+            {isEnlishVersion
+              ? "📚 I study on the platform "
+              : "📚 Обучаюсь на платформе "}
             <a
               className={`${
                 isThemeDark
@@ -24,10 +30,13 @@ function AboutMe({ isThemeDark }) {
               target="_blank"
               rel="noreferrer"
             >
-              Яндекс Практикум (Web-разработка)
+              {isEnlishVersion
+                ? "Yandex Practicum (Web-development)"
+                : "Яндекс Практикум (Web-разработка)"}
             </a>
-            , параллельно изучаю интересные технологии и делаю pet-проекты, в
-            активном поиске работы
+            {isEnlishVersion
+              ? ", at the same time I am studying interesting technologies and doing pet projects, actively looking for work"
+              : ", параллельно изучаю интересные технологии и делаю pet-проекты, в активном поиске работы"}
           </p>
         </div>
       </div>

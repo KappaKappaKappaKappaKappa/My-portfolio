@@ -24,7 +24,7 @@ function Footer() {
 
           <li className="footer-list__item">
             <a
-              href="https://github.com/KappaKappaKappaKappaKappa"
+              href="https://t.me/lopooooop"
               className="footer-list__item-link"
               target="_blank"
               rel="noopener noreferrer"
