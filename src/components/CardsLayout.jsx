@@ -64,7 +64,12 @@ function CardsLayout({ isEnlishVersion }) {
               : "Простой одностаничный сайт написанный на HTML и CSS с использованием CSS-анимаций."}
           </p>
           <div className="card__links">
-            <a className="card__link" href="#">
+            <a
+              className="card__link"
+              href="https://kappakappakappakappakappa.github.io/how-to-learn/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img
                 className="card__link-img"
                 src={cardLinkViewImg}
