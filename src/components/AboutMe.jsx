@@ -13,8 +13,8 @@ function AboutMe({ isThemeDark, isEnlishVersion }) {
           </p>
           <p className="about-me__text">
             {isEnlishVersion
-              ? "🖥️ I came to development because I’m interested in learning and creating something new, improving the user experience"
-              : "🖥️ Пришел в разработку потому мне интересно узнавать и создавать что-то новое, улучшая пользовательский опыт"}
+              ? "🖥️ I came to development because I am interested in learning and creating something new, improving the user experience."
+              : "🖥️ Пришел в разработку потому что мне интересно узнавать и создавать что-то новое, улучшая пользовательский опыт"}
           </p>
           <p className="about-me__text">
             {isEnlishVersion
