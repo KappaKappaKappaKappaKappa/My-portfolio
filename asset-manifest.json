@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.fbd8d55c.css",
-    "main.js": "/My-portfolio/static/js/main.ae0ad932.js",
-    "static/js/787.128fc6e9.chunk.js": "/My-portfolio/static/js/787.128fc6e9.chunk.js",
+    "main.js": "/My-portfolio/static/js/main.2c8b8e66.js",
+    "static/js/496.c6af6c87.chunk.js": "/My-portfolio/static/js/496.c6af6c87.chunk.js",
     "static/media/developer-nigth.gif": "/My-portfolio/static/media/developer-nigth.b7954e15835d63e28a20.gif",
     "static/media/developer.gif": "/My-portfolio/static/media/developer.951e9a3a59bb0ef4f1ae.gif",
     "static/media/russianTravelImg.png": "/My-portfolio/static/media/russianTravelImg.73fa0e98d3cea472454d.png",
@@ -32,11 +32,11 @@
     "static/media/js.svg": "/My-portfolio/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/card-link.svg": "/My-portfolio/static/media/card-link.23a65dccc0d442a7a1b0919527122278.svg",
     "main.fbd8d55c.css.map": "/My-portfolio/static/css/main.fbd8d55c.css.map",
-    "main.ae0ad932.js.map": "/My-portfolio/static/js/main.ae0ad932.js.map",
-    "787.128fc6e9.chunk.js.map": "/My-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.2c8b8e66.js.map": "/My-portfolio/static/js/main.2c8b8e66.js.map",
+    "496.c6af6c87.chunk.js.map": "/My-portfolio/static/js/496.c6af6c87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbd8d55c.css",
-    "static/js/main.ae0ad932.js"
+    "static/js/main.2c8b8e66.js"
   ]
 }
