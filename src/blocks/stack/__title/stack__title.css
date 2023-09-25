@@ -5,3 +5,9 @@
     font-weight: 900;
     text-align: center;
 }
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+    .stack__title {
+        font-size: 2rem;
+    }
+  }

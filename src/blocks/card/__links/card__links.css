@@ -2,3 +2,9 @@
     display: flex;
     gap    : 16px;
 }
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+    .card__links {
+            flex-direction: column;
+    }
+  }

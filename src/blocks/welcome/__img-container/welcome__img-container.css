@@ -6,3 +6,9 @@
   margin: 0;
   width: 50%;
 }
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+  .welcome__img-container{
+    width: 100%;
+  }
+}

@@ -2,3 +2,10 @@
     width: 80px;
     height: 80px;
 }
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+    .place__img {
+        width: 48px;
+        height: 48px;
+    }
+  }

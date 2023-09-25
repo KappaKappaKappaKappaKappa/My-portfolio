@@ -4,3 +4,12 @@
   height: 84vh;
   margin-bottom: 64px;
 }
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .welcome{
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+}

@@ -33,7 +33,7 @@ function CardsReact({ isEnlishVersion }) {
         <div className="card__links">
           <a
             className="card__link"
-            href="https://kappakappakappakappakappa.github.io/react-mesto-auth/"
+            href="https://project.mesto.nomoredomainsrocks.ru/"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -49,7 +49,7 @@ function CardsReact({ isEnlishVersion }) {
 
           <a
             className="card__link"
-            href="https://github.com/KappaKappaKappaKappaKappa/react-mesto-auth.git"
+            href="https://github.com/KappaKappaKappaKappaKappa/react-mesto-api-full-gha"
             target="_blank"
             rel="noreferrer noopener"
           >

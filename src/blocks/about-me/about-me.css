@@ -1,3 +1,9 @@
-.about-me{
-    margin-bottom: 64px;
+.about-me {
+  margin-bottom: 64px;
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+  .about-me {
+    margin-bottom: 32px;
+  }
 }
