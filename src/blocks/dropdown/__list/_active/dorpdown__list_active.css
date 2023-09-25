@@ -1,3 +1,4 @@
 .dorpdown__list_active {
-    opacity: 1;
-  }
+  visibility: visible;
+  opacity: 1;
+}
