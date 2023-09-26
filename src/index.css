@@ -15,6 +15,7 @@
 @import url("./blocks/dropdown/__arrow/_white/dropdown__arrow_white.css");
 @import url("./blocks/dropdown/__list/dorpdown__list.css");
 @import url("./blocks/dropdown/__list/_active/dorpdown__list_active.css");
+@import url("./blocks/dropdown/__lang-caption/dropdown__lang-caption.css");
 
 /* WELCOME */
 @import url("./blocks/welcome/__img-container/welcome__img-container.css");

@@ -79,7 +79,7 @@ function Header({
                   }
                   className="dropdown__img"
                 />
-                <span className="dropdown__text">{`${
+                <span className="dropdown__lang-caption">{`${
                   isEnlishVersion ? "RU" : "EN"
                 }`}</span>
               </button>
