@@ -18,8 +18,8 @@ function CardsReact({ isEnlishVersion }) {
         </h3>
         <p className="card__description">
           {isEnlishVersion
-            ? "Web page for storing user cards with the ability register, log in, add and delete cards, like, change profile data and avatar."
-            : "Веб-страница-хранилище карточек пользователей с возможность регистрироваться, авторизовываться, добавлять и удалять карточки, ставить лайки, менять данные профиля и аватар."}
+            ? "The Place service with its own API is a web page-a repository of user cards with the ability to register, log in, add and delete cards, put likes, change profile data and avatar."
+            : "Сервис Место с собственным API представляющий собой веб-страницу-хранилище карточек пользователей с возможность регистрироваться, авторизовываться, добавлять и удалять карточки, ставить лайки, менять данные профиля и аватар."}
         </p>
         <h4 className="card__stack-list-title">
           {isEnlishVersion ? "Stack:" : "Стек:"}
@@ -29,6 +29,7 @@ function CardsReact({ isEnlishVersion }) {
           <li>CSS3</li>
           <li>Java Scrips</li>
           <li>React</li>
+          <li>Express</li>
         </ul>
         <div className="card__links">
           <a
