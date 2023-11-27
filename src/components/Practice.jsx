@@ -22,8 +22,8 @@ function Practice({ isEnlishVersion }) {
           </p>
           <p className="place__time">
             {isEnlishVersion
-              ? "February 2023 - Present"
-              : "Февраль 2023 - по настоящее время"}
+              ? "February 2023 - November 2023"
+              : "Февраль 2023 - Ноябрь 2023"}
           </p>
           <p className="place__location">
             {isEnlishVersion ? "Russia, Moscow" : "Россия, Москва"}

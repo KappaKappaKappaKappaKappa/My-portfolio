@@ -18,8 +18,8 @@ function AboutMe({ isThemeDark, isEnlishVersion }) {
           </p>
           <p className="about-me__text">
             {isEnlishVersion
-              ? "📚 I study on the platform "
-              : "📚 Обучаюсь на платформе "}
+              ? "📚 Completed training on the platform "
+              : "📚 Прошел обучение на платформе "}
             <a
               className={`${
                 isThemeDark
@@ -35,8 +35,8 @@ function AboutMe({ isThemeDark, isEnlishVersion }) {
                 : "Яндекс Практикум (Web-разработка)"}
             </a>
             {isEnlishVersion
-              ? ", at the same time I am studying interesting technologies and doing pet projects, actively looking for work"
-              : ", параллельно изучаю интересные технологии и делаю pet-проекты, в активном поиске работы"}
+              ? ", at the same time, I am studying interesting technologies and doing pet projects, actively looking for a job or internship"
+              : ", параллельно изучаю интересные технологии и делаю pet-проекты, в активном поиске работы или стажировки"}
           </p>
         </div>
       </div>
