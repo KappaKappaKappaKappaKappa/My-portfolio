@@ -1,14 +1,24 @@
 import CardsLayout from "./CardsLayout";
 import CardsReact from "./CardsReact";
+import React from "react";
 
-function Projects({
+interface ProjectsProps {
+  isReactTabActive: boolean;
+  isLayoutTabActive: boolean;
+  onClickReactTab: () => void;
+  onClickLayoutTab: () => void;
+  isThemeDark: boolean;
+  isEnlishVersion: boolean;
+}
+
+const Projects: React.FC<ProjectsProps> = ({
   isReactTabActive,
+  isThemeDark,
   isLayoutTabActive,
   onClickReactTab,
-  onClickLayoutTab,
-  isThemeDark,
   isEnlishVersion,
-}) {
+  onClickLayoutTab,
+}) => {
   return (
     <section className="projects">
       <div className="projects__container">
@@ -59,7 +69,9 @@ function Projects({
           </button>
         </div>
         <div className="projects__cards">
-          {(isReactTabActive && <CardsReact isEnlishVersion={isEnlishVersion} />) ||
+          {(isReactTabActive && (
+            <CardsReact isEnlishVersion={isEnlishVersion} />
+          )) ||
             (isLayoutTabActive && (
               <CardsLayout isEnlishVersion={isEnlishVersion} />
             ))}
@@ -67,6 +79,6 @@ function Projects({
       </div>
     </section>
   );
-}
+};
 
 export default Projects;

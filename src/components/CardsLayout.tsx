@@ -2,8 +2,13 @@ import cardLinkViewImg from "../images/card-link.svg";
 import russianTravelImg from "../images/russianTravelImg.png";
 import howToLearnImg from "../images/howToLearnImg.png";
 import testJobImg from "../images/test-job-img.png";
+import React from "react";
 
-function CardsLayout({ isEnlishVersion }) {
+interface CardsLayoutProps {
+  isEnlishVersion: boolean;
+}
+
+const CardsLayout: React.FC<CardsLayoutProps> = ({ isEnlishVersion }) => {
   return (
     <>
       <article className="card">
@@ -122,6 +127,6 @@ function CardsLayout({ isEnlishVersion }) {
       </article>
     </>
   );
-}
+};
 
 export default CardsLayout;

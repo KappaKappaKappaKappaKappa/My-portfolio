@@ -10,8 +10,13 @@ import jsx from "../images/jsx.png";
 import mongodb from "../images/mongodb-icon.svg";
 import express from "../images/expressjs-icon.svg";
 import node from "../images/nodejs-icon.svg";
+import React from "react";
 
-function Stack({ isEnlishVersion }) {
+interface StackProps {
+  isEnlishVersion: boolean;
+}
+
+const Stack: React.FC<StackProps> = ({ isEnlishVersion }) => {
   return (
     <section className="stack">
       <h2 className="stack__title">
@@ -131,6 +136,6 @@ function Stack({ isEnlishVersion }) {
       </ul>
     </section>
   );
-}
+};
 
 export default Stack;

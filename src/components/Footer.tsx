@@ -1,5 +1,6 @@
 import footerGitImg from "../images/footer-github-img.svg";
 import footerTelegramImg from "../images/footer-telegram-img.svg";
+import React from "react";
 
 function Footer() {
   return (

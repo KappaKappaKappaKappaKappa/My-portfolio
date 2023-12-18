@@ -2,8 +2,13 @@ import mestoImg from "../images/mesto.png";
 import cardLinkViewImg from "../images/card-link.svg";
 import cardLinkCodeImd from "../images/linkCodeImg.svg";
 import moviesExplorerImg from "../images/movies-explorer-img.png";
+import React from "react";
 
-function CardsReact({ isEnlishVersion }) {
+interface CardsReactProps {
+  isEnlishVersion: boolean;
+}
+
+const CardsReact: React.FC<CardsReactProps> = ({ isEnlishVersion }) => {
   return (
     <>
       <article className="card">
@@ -144,6 +149,6 @@ function CardsReact({ isEnlishVersion }) {
       </article>
     </>
   );
-}
+};
 
 export default CardsReact;

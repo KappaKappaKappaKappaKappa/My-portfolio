@@ -1,5 +1,11 @@
 import logoPracticum from "../images/logoPracticum.jpg";
-function Practice({ isEnlishVersion }) {
+import React from "react";
+
+interface PracticeProps {
+  isEnlishVersion: boolean;
+}
+
+const Practice: React.FC<PracticeProps> = ({ isEnlishVersion }) => {
   return (
     <section className="practice">
       <h2 className="practice__title">
@@ -9,7 +15,11 @@ function Practice({ isEnlishVersion }) {
         <img
           className="place__img"
           src={logoPracticum}
-          alt={isEnlishVersion ? "Logo Yandex Practicum" : "Логотип Яндекс Практикум"}
+          alt={
+            isEnlishVersion
+              ? "Logo Yandex Practicum"
+              : "Логотип Яндекс Практикум"
+          }
         />
         <div className="place__container">
           <h3 className="place__title">
@@ -99,6 +109,6 @@ function Practice({ isEnlishVersion }) {
       </div>
     </section>
   );
-}
+};
 
 export default Practice;

@@ -1,14 +1,28 @@
 import russian from "../images/russian.svg";
 import english from "../images/english.svg";
-function Header({
+import React from "react";
+
+interface HeaderProps {
+  onSwitchDarkTheme: () => void;
+  isThemeDark: boolean;
+  isDropdownActive: boolean;
+  onClickDropdown: () => void;
+  isEnlishVersion: boolean;
+  onClickEnglishBtn: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({
   onSwitchDarkTheme,
   isThemeDark,
   isDropdownActive,
   onClickDropdown,
   isEnlishVersion,
   onClickEnglishBtn,
-}) {
-  const handleClickEnglishBtn = () => {
+}) => {
+  
+  const handleClickEnglishBtn: (
+    e: React.MouseEvent<HTMLButtonElement>
+  ) => void = () => {
     onClickEnglishBtn();
     onClickDropdown();
   };
@@ -72,11 +86,7 @@ function Header({
               <button className="dropdown__btn" onClick={handleClickEnglishBtn}>
                 <img
                   src={isEnlishVersion ? russian : english}
-                  alt={
-                    isEnlishVersion
-                      ? "Flag RF"
-                      : "Флаг Великобритании"
-                  }
+                  alt={isEnlishVersion ? "Flag RF" : "Флаг Великобритании"}
                   className="dropdown__img"
                 />
                 <span className="dropdown__lang-caption">{`${
@@ -89,6 +99,6 @@ function Header({
       </div>
     </header>
   );
-}
+};
 
 export default Header;

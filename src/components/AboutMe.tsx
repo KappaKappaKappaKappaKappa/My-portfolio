@@ -1,4 +1,11 @@
-function AboutMe({ isThemeDark, isEnlishVersion }) {
+import React from "react";
+
+interface AboutMeProps {
+  isThemeDark: boolean;
+  isEnlishVersion: boolean;
+}
+
+const AboutMe: React.FC<AboutMeProps> = ({ isThemeDark, isEnlishVersion }) => {
   return (
     <section className="about-me">
       <div className="about-me__container">
@@ -42,6 +49,6 @@ function AboutMe({ isThemeDark, isEnlishVersion }) {
       </div>
     </section>
   );
-}
+};
 
 export default AboutMe;

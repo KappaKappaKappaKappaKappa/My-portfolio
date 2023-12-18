@@ -7,32 +7,33 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import { useState } from "react";
 import { useEffect } from "react";
+import React from "react";
 
 function App() {
-  const [isReactTabActive, setIsReactTabActive] = useState(false);
-  const [isLayoutTabActive, setIsLayoutTabActive] = useState(true);
-  const [isThemeDark, setIsThemeDark] = useState(false);
-  const [isDropdownActive, setIsDropdownActive] = useState(false);
-  const [isEnlishVersion, setIsEnglishVersion] = useState(false);
+  const [isReactTabActive, setIsReactTabActive] = useState<boolean>(false);
+  const [isLayoutTabActive, setIsLayoutTabActive] = useState<boolean>(true);
+  const [isThemeDark, setIsThemeDark] = useState<boolean>(false);
+  const [isDropdownActive, setIsDropdownActive] = useState<boolean>(false);
+  const [isEnlishVersion, setIsEnglishVersion] = useState<boolean>(false);
 
-  const handleClickEnglishBtn = () => {
+  const handleClickEnglishBtn = (): void => {
     setIsEnglishVersion(!isEnlishVersion);
   };
 
-  const handleClickDropdown = () => {
+  const handleClickDropdown = (): void => {
     setIsDropdownActive(!isDropdownActive);
   };
 
-  const hadleSwitchTheme = () => {
+  const hadleSwitchTheme = (): void => {
     setIsThemeDark(!isThemeDark);
   };
 
-  const handleClickLayoutTab = () => {
+  const handleClickLayoutTab = (): void => {
     setIsReactTabActive(false);
     setIsLayoutTabActive(true);
   };
 
-  const handleClickReactTab = () => {
+  const handleClickReactTab = (): void => {
     setIsReactTabActive(true);
     setIsLayoutTabActive(false);
   };
