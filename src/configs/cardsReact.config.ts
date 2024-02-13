@@ -50,7 +50,7 @@ const CardsReactInfo: TCardsReactInfo[] = [
     img: myPortfolio,
     title: "Мое портфолио",
     description:
-      "Это мое портфолио, где я демонстрирую свои проекты и навыки. В данный момент вы смотрите именно этот проект, надеюс он вам нравится (:",
+      "Это мое портфолио, где я демонстрирую свои проекты и навыки. В данный момент вы смотрите именно этот проект, надеюсь он вам нравится (:",
     stack: ["HTML5", "CSS3", "JavaScrips", "React", "БЭМ"],
     githubLinks: "https://github.com/KappaKappaKappaKappaKappa/My-portfolio",
     site: "https://kappakappakappakappakappa.github.io/My-portfolio/",
