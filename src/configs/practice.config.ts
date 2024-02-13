@@ -1,6 +1,6 @@
-import logoIzumrudniyGorod from "../images/izumrudniy-gorod.jpg";
-import logoPracticum from "../images/logoPracticum.jpg";
-import logoYandex from "../images/yandexLogo.svg";
+import logoIzumrudniyGorod from "../images/placeLogos/izumrudniy-gorod.jpg";
+import logoPracticum from "../images/placeLogos/logoPracticum.jpg";
+import logoYandex from "../images/placeLogos/yandexLogo.svg";
 
 interface PlaceInfo {
   logoAlt: string;

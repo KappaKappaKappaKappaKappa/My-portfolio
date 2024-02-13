@@ -1,7 +1,7 @@
-import mestoImg from "../images/mesto.png";
+import mestoImg from "../images/projectsPreview/mesto.png";
 import cardLinkViewImg from "../images/card-link.svg";
 import cardLinkCodeImd from "../images/linkCodeImg.svg";
-import moviesExplorerImg from "../images/movies-explorer-img.png";
+import moviesExplorerImg from "../images/projectsPreview/movies-explorer-img.png";
 import React from "react";
 
 interface CardsReactProps {

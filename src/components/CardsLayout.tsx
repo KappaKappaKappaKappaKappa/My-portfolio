@@ -1,7 +1,7 @@
 import cardLinkViewImg from "../images/card-link.svg";
-import russianTravelImg from "../images/russianTravelImg.png";
-import howToLearnImg from "../images/howToLearnImg.png";
-import testJobImg from "../images/test-job-img.png";
+import russianTravelImg from "../images/projectsPreview/russianTravelImg.png";
+import howToLearnImg from "../images/projectsPreview/howToLearnImg.png";
+import testJobImg from "../images/projectsPreview/test-job-img.png";
 import React from "react";
 
 interface CardsLayoutProps {
