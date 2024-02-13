@@ -1,6 +1,6 @@
 import cardLinkViewImg from "../images/card-link.svg";
 import React from "react";
-import CardsLatoutInfo from "../configs/cardsLayout";
+import CardsLatoutInfo from "../configs/cardsLayout.config";
 
 interface CardsLayoutProps {
   isEnlishVersion: boolean;
