@@ -10,6 +10,13 @@ import jsx from "../images/jsx.png";
 import mongodb from "../images/mongodb-icon.svg";
 import express from "../images/expressjs-icon.svg";
 import node from "../images/nodejs-icon.svg";
+import tailwind from "../images/tailwind.svg";
+import typeScript from "../images/type-script.svg";
+import nextjs from "../images/nextjs.svg";
+import sass from "../images/sass.svg";
+import materialui from "../images/materialui.svg";
+import redux from "../images/redux.svg";
+import vite from "../images/vite.svg";
 import React from "react";
 
 interface StackProps {
@@ -53,6 +60,24 @@ const Stack: React.FC<StackProps> = ({ isEnlishVersion }) => {
         <li className="stack__list-item">
           <img
             className="stack__img"
+            src={typeScript}
+            alt={isEnlishVersion ? "Icon Type Script" : "Иконка Type Script"}
+          />
+          <span>Type Script</span>
+        </li>
+
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={nextjs}
+            alt={isEnlishVersion ? "Icon nextjs" : "Иконка nextjs"}
+          />
+          <span>Next.js</span>
+        </li>
+
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
             src={react}
             alt={isEnlishVersion ? "Icon react" : "Иконка react"}
           />
@@ -83,7 +108,7 @@ const Stack: React.FC<StackProps> = ({ isEnlishVersion }) => {
             src={express}
             alt={isEnlishVersion ? "Icon express" : "Иконка express"}
           />
-          <span>Express</span>
+          <span>Express.js</span>
         </li>
 
         <li className="stack__list-item">
@@ -93,6 +118,39 @@ const Stack: React.FC<StackProps> = ({ isEnlishVersion }) => {
             alt={isEnlishVersion ? "Icon node" : "Иконка node"}
           />
           <span>Node.js</span>
+        </li>
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={tailwind}
+            alt={isEnlishVersion ? "Icon Tailwind" : "Иконка Tailwind"}
+          />
+          <span>Tailwind</span>
+        </li>
+
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={sass}
+            alt={isEnlishVersion ? "Icon sass" : "Иконка sass"}
+          />
+          <span>Sass</span>
+        </li>
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={materialui}
+            alt={isEnlishVersion ? "Icon MaterialUI" : "Иконка MaterialUI"}
+          />
+          <span>Material-UI</span>
+        </li>
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={redux}
+            alt={isEnlishVersion ? "Icon Redux" : "Иконка Redux"}
+          />
+          <span>Redux</span>
         </li>
       </ul>
       <h3 className="stack__subtitle">
@@ -132,6 +190,14 @@ const Stack: React.FC<StackProps> = ({ isEnlishVersion }) => {
             alt={isEnlishVersion ? "Icon mongodb" : "Иконка mongodb"}
           />
           <span>MongoDB</span>
+        </li>
+        <li className="stack__list-item">
+          <img
+            className="stack__img"
+            src={vite}
+            alt={isEnlishVersion ? "Icon vite" : "Иконка vite"}
+          />
+          <span>Vite</span>
         </li>
       </ul>
     </section>
